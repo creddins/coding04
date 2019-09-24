@@ -52,8 +52,7 @@ function main() {
         redirect('email-error.html');
     }
 
-    console.log($name);
-
+    
 }
 
 //this calls main
