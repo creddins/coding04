@@ -16,7 +16,7 @@ body {background-color: #a0a09e;
 
 h1 {
     padding-top: 50px;
-    font-size: 23pt;
+    font-size: 18pt;
      
 }
     
@@ -57,7 +57,7 @@ h1 {
 }
 
 button {
-    width: 100px;
+    width: 50px;
     background-color: #000000;
     color: azure;
 }
@@ -74,6 +74,18 @@ button:hover{
 @media (min-width: 600px) {
     .form-container{
         width: 60%;
+    }
+
+
+
+    button {
+        width: 100px;
+    }
+
+    h1 {
+        
+        font-size: 23pt;
+         
     }
 
 
