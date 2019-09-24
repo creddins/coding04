@@ -1,0 +1,67 @@
+<!-- ****************************************************
+Name: Curtis Ramsey Eddins
+Assignment: 04
+Purpose: Use PHP.
+Notes: 
+********************************************************* -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/ico">
+    </head>
+    <body>
+        <div class="form-container">
+            <div id="msg">
+                <br>
+            </div>
+            <div id="form-div">
+                <form id="names-form" name="names-form" action="email.php" method="post">
+
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="name" name="name" 
+                        placeholder="Your Name" maxlength="64" value="">
+                    </div>
+
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="email" name="email" 
+                        placeholder="Return Email" maxlength="64" value="">
+                    </div>
+
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="remail" name="remail" 
+                        placeholder="Re-Enter Email" maxlength="64" value="">
+                    </div>
+    
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="subject" name="subject" 
+                        placeholder="Subject" maxlength="64" value="">
+                    </div>
+
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="message" name="message" 
+                        placeholder="Message" maxlength="1000" value="">
+                    </div>
+
+
+
+                    <div class="input-div">
+                        <button id="form-send" type="button" class="">Send</button>&nbsp;&nbsp;
+                        <button id="form-clear" type="button" class="">Clear</button>
+                    </div>
+
+
+
+                </form>
+
+
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
